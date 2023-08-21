@@ -8,6 +8,10 @@ persist.vendor.bt.a2dp.aac_whitelist=false
 persist.vendor.btstack.enable.lpa=true
 persist.vendor.bt.a2dp.hal.implementation=true
 
+#button jack mode & switch
+persist.audio.button_jack.profile=volume
+persist.audio.button_jack.switch=0
+
 # Camera
 log.tag.CHIUSECASE=ERROR
 
@@ -101,6 +105,9 @@ ro.ril.fast.dormancy.timeout=3
 ro.mot.eri.losalert.delay=1000
 ro.vold.umsdirtyratio=20
 power.saving.mode=1
+
+# Sensor
+persist.vendor.sensors.enable.mag_filter=true
 
 # Storage.xml moment
 persist.sys.binary_xml=false
